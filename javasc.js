@@ -77,8 +77,14 @@ function CALLDATA(aaaa){
 
         
         document.getElementById('add').innerHTML= datamini;
-        document.getElementById("imggoogle").src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data="+obj[1].maps.googleMaps;
+        if(aaaa=="india"){
+
+            document.getElementById("imggoogle").src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data="+obj[1].maps.googleMaps;
             document.getElementById('imgstreets').src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data="+obj[1].maps.openStreetMaps;
+        }else{
+            document.getElementById("imggoogle").src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data="+obj[0].maps.googleMaps;
+            document.getElementById('imgstreets').src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data="+obj[0].maps.openStreetMaps;
+        }
         
     }
     xhr.send();}
