@@ -1,65 +1,72 @@
 body {
-  background-color: grey;
-  }
- 
-  
-  .usingchatgpt {
-    background-color: #6b696e;
-    padding:  40px 40px;
-    border-radius: 15px;
-    color: white;
-    text-align: center;
-    }
+  background-color: #333; 
+}
 
-    input {
-      margin: 0;
-      border: none;
-      border-radius: 15px;
-      width: 75%;
-      padding: 10px;
-      float: left;
-      font-size: 16px;
-    }
+.usingchatgpt {
+  background: linear-gradient(to bottom, #6b696e, #4f4c50);
+  padding: 40px;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
 
-    .fetchh {
-      padding: 2px;
-      width: 8%;
-      background: #d9d9d9;
-      border-radius: 100px;
-      color: #555;
-      float: left;
-      text-align: center;
-      font-size: 16px;
-      cursor: pointer;
-      transition: 0.3s;
+input {
+  margin: 0;
+  border: none;
+  border-radius: 15px;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s;
+}
 
-    }
+input:focus {
+  background-color: #fff; 
+}
 
-    .fetchh:hover {
-      background-color: #bbb;
-    }
-    
-    .getresultfromapi{
-       border-color: #1a1414;;
-       padding: auto;
-       background: #d1a9a9;
-       text-align: center;
-      border-radius: 50px;
+.fetchh {
+  padding: 2px;
+  width: 8%;
+  background: #d9d9d9;
+  border-radius: 100px;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
 
-    }
-    #ad{
-      border-color: #790303;;
-      padding: auto;
-      background: #22cf64;
-      text-align: center;
-     border-radius: 50px;
+.fetchh:hover {
+  background-color: #bbb;
+}
 
-   }
+.getresultfromapi {
+  border: 2px solid #1a1414;
+  padding: 10px;
+  background: #d1a9a9;
+  text-align: center;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
 
-   .qr{
-    margin: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-   }
+#ad {
+  border: 2px solid #790303;
+  padding: 10px; 
+  background: #22cf64;
+  text-align: center;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.qr {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
