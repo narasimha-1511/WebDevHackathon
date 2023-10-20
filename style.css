@@ -1,10 +1,10 @@
 body {
-	background-color: #333;
+	background-color: #C2D9FF;
 	overflow-x: hidden;
 }
 
 .usingchatgpt {
-	background: linear-gradient(to bottom, #6b696e, #4f4c50);
+	background: linear-gradient(to bottom, #ab7bf5, #190482);
 	padding: 20px;
 	border-radius: 15px;
 	color: white;
@@ -51,19 +51,20 @@ input:focus {
 .getresultfromapi {
 	border: 2px solid #1a1414;
 	padding: 10px 10px;
-	background: #d1a9a9;
+	background: #2e7acb;
 	width: 90%;
 	margin: auto;
 	text-align: center;
 	border-radius: 50px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 	margin-top: 20px;
+	color: white;
 }
 
 #ad {
 	border: 2px solid #790303;
 	padding: 10px 10px;
-	background: #22cf64;
+	background: #8E8FFA;
 	text-align: center;
 	border-radius: 50px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -108,7 +109,7 @@ input:focus {
 }
 
 .qr {
-	background-color: burlywood;
+	background-color: #8E8FFA;
 	padding: 25px;
 	border-radius: 20px;
 }
