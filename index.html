@@ -1,44 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Hackathon</title>
     <link rel="stylesheet" href="style.css">
-    
+
 </head>
+
 <body>
-    
+
     <div id="fetchfromchatgpt" class="usingchatgpt">
-        <h1><u><i>Type the Name of the country  !!!!</i></u></h1>
-        <input type="text" id="myInput" placeholder="Example.. India,Japan,nigeria,netherlands,newzeland,.....">
-        <h1>  </h1>
-        <span onclick="newElement()" class="fetchh"> Get<br>Solution</span>
-      </div>
+        <h1><u>Enter Country Name !!!!</u></h1>
 
-      <div id = "result" class="getresultfromapi" >
-      <h2>Here below you can see your result....</h2>
-      </div>
-
-      
-
-      
-      <div id="ad"><p id="add">hey</p><a href="">Google Maps Link</a><br><a href="" id="jeje" >Open Streets link</a></div>
-      
-    
-
-      <script src="javasc.js"></script>
-      <div class="qr" >
-        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.openstreetmap.org/relation/304716" alt="" id="imggoogle">
-        <span>
-            Google Maps Link
-        </span>
     </div>
-    <div class="qr" >
-        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.openstreetmap.org/relation/304716" alt="" id="imgstreets">
-        <span>
-            Open Streets Link
-        </span>
+
+    <div id="result" class="getresultfromapi">
+        <h2>Search Country and Get Information About It </h2>
     </div>
-    </body>
+
+
+    <div class="cont">
+        <div id="ad">
+            <div class="srch">
+                <input type="text" id="myInput" placeholder="example.... India, Japan">
+
+                <button onclick="newElement()" class="fetchh"> Search </button>
+            </div>
+
+            <p id="add">Result Will Be Shown Below</p>
+
+            <div class="link">
+                <a href="">Google Maps Link</a>
+                <a href="" id="jeje">Open Streets link</a>
+            </div>
+        </div>
+
+
+        <div class="qr">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.openstreetmap.org/relation/304716"
+                alt="" id="imggoogle">
+            <div>
+                Google Maps Barcode
+            </div>
+        </div>
+
+        <div class="qr">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.openstreetmap.org/relation/304716"
+                alt="" id="imgstreets">
+            <div>
+                Open Streets Barcode
+            </div>
+        </div>
+
+    </div>
+    <script src="javasc.js"></script>
+</body>
+
 </html>
