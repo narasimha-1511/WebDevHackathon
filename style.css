@@ -1,10 +1,11 @@
 body {
-    background-color: #393535;
+    background-color: #242582;
     font-family: Arial, sans-serif;
 }
 
 .usingchatgpt {
-    background: linear-gradient(to bottom, #72ba5e, #1e8f1a);
+    /* background: #F64C72; */
+    background: linear-gradient(to bottom, #F64C72, #ac2542);
     padding: 20px;
     border-radius: 15px;
     color: white;
@@ -52,7 +53,7 @@ input:focus {
 .getresultfromapi {
     border: 2px solid #ffffff;
     padding: 10px 10px;
-    background: #4d4d4d;
+    background: #553D67;
     width: 90%;
     margin: auto;
     text-align: center;
@@ -85,7 +86,8 @@ input:focus {
     margin-top: 50px;
 }
 #ad {
-	background-color: #b7a1a1;
+	background-color: #99738E;
+    color: white;
     min-width: 40%;
     min-height: 300px;
     display: flex;
@@ -97,6 +99,7 @@ input:focus {
     display: flex;
     justify-content: space-between;
     padding: 15px 10%;
+    
 }
 
 .srch {
@@ -112,7 +115,7 @@ input:focus {
 }
 
 .qr {
-    background-color: #756a6a;
+    background-color: #99738E;
     padding: 25px;
     border-radius: 20px;
     color: white;
